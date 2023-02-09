@@ -1,0 +1,17 @@
+
+
+以下都需要安装Filza软件
+
+==============气泡替换方法修改说明.txt==============
+
+替换路径：/var/containers/Bundle/Application/com.tencent.xin/WeChat.app/Assets.car ，然后重启微信生效。
+
+==============微信提示音 修改说明.txt==============
+
+替换路径/var/containers/Bundle/Application/com.tencent.xin/WeChat.app/in.caf
+
+
+==============屏蔽ota升级失效办法解决说明.txt==============
+
+删除 路径下 /var/containers/Shared/SystemGroup/systemgroup.com.apple.configurationprofiles/Library/ConfigurationProfiles中，RemovalDate字符
+
